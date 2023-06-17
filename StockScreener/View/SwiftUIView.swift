@@ -81,6 +81,7 @@ struct SwiftUIView: View {
     }
     
     private struct StockCell: View {
+        
         let stock: Stock
         let isHighlighted: Bool
         
