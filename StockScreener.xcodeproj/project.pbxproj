@@ -15,7 +15,7 @@
 		B40C49F429F6B24E0024207D /* UIKitView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40C49F029F6B24E0024207D /* UIKitView.storyboard */; };
 		B40C49F529F6B24E0024207D /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C49F129F6B24E0024207D /* UIKitView.swift */; };
 		B40C49F629F6B24E0024207D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C49F229F6B24E0024207D /* ViewModel.swift */; };
-		B4C030C829F76F4000C98802 /* Optionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C030C729F76F4000C98802 /* Optionable.swift */; };
+		B4C030C829F76F4000C98802 /* Stock+Optionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C030C729F76F4000C98802 /* Stock+Optionable.swift */; };
 		B4C030CA29F770B500C98802 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C030C929F770B500C98802 /* Segment.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		B40C49F029F6B24E0024207D /* UIKitView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UIKitView.storyboard; sourceTree = "<group>"; };
 		B40C49F129F6B24E0024207D /* UIKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 		B40C49F229F6B24E0024207D /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		B4C030C729F76F4000C98802 /* Optionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionable.swift; sourceTree = "<group>"; };
+		B4C030C729F76F4000C98802 /* Stock+Optionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+Optionable.swift"; sourceTree = "<group>"; };
 		B4C030C929F770B500C98802 /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				B40C49EF29F6B24E0024207D /* Stock.swift */,
-				B4C030C729F76F4000C98802 /* Optionable.swift */,
+				B4C030C729F76F4000C98802 /* Stock+Optionable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40C49F629F6B24E0024207D /* ViewModel.swift in Sources */,
-				B4C030C829F76F4000C98802 /* Optionable.swift in Sources */,
+				B4C030C829F76F4000C98802 /* Stock+Optionable.swift in Sources */,
 				B40C49E429F6B20A0024207D /* SwiftUIView.swift in Sources */,
 				B4C030CA29F770B500C98802 /* Segment.swift in Sources */,
 				B40C49E229F6B20A0024207D /* StockScreenerApp.swift in Sources */,
